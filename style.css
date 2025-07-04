@@ -291,8 +291,7 @@ footer {
   display: inline-flex;
   margin-top: 15px;
   margin-right: 40px;
-}
-.social-links {
+}.social-links {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -301,7 +300,7 @@ footer {
 
 .social-links a {
   color: white;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -316,5 +315,6 @@ footer {
   transform: translateY(-3px);
   background-color: var(--accent);
 }
+
 
 }
