@@ -262,6 +262,30 @@ footer {
   box-shadow: inset 0 1px 3px rgba(255,255,255,0.2);
   margin-top: auto;
 }
+.welcome-container {
+  background: linear-gradient(135deg, #cfa3e3, #3d2b5d);
+  color: var(--primary);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  grid-column: 1 / -1;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+.welcome-container h2 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.welcome-container p {
+  font-family: "Viaoda Libre", serif;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .social-links {
